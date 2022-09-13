@@ -16,7 +16,7 @@ new Vue({
   store,
   render(h) {
     return h('keep-alive-page', [
-      h('router-view'})
+      h('router-view')
     ])
   }
 })
